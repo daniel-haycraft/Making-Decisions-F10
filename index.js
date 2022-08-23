@@ -22,16 +22,17 @@ for (let i = 0; i < backpack.length; i++){
   console.log(backpack[i])
 }
 
+for (let i = 0; i < backpack2.length; i++) {
+  console.log(backpack2[i])
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+if (backpack.length >= 3) {
+  console.log(`hit if`)
+for (let i = 0; i < 3; i++){
+  console.log(backpack[i])
+}
+} else {
+  console.log('hit else')
+  for (let i = 0; i < backpack2.length; i++) 
+  console.log(backpack2[i])
+}
